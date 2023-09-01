@@ -12,11 +12,11 @@
 void Init(){
 	SPI_Master_Init();
 	DIO_SetPinDir(DIO_PORTA, DIO_PIN7, DIO_PIN_OUTPUT);
+	SPI_SendCharacter('A');
 }
 
 void Test_SPI(){
 	UINT8_t x = 0;
-	SPI_SendCharacter('A');
 	x = SPI_RecieveCharacter();
 	
 	if(x == 'A'){

@@ -149,6 +149,10 @@ void SPI_Master_Init(){
 	CLEAR_BIT(SPCR_setting, SPCR_SPE);
 	
 	#endif /*SPI_MODE*/
+	
+	/*write to registers*/
+	SPCR = SPCR_setting;
+	SPSR = SPSR_setting;
 }
 
 /*void SPI_Slave_Init(){

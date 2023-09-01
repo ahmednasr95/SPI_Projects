@@ -5,87 +5,87 @@ Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
   0 .text         0000006c  00000000  00000000  00000074  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .data         00000000  00800060  00800060  00000418  2**0
+  1 .data         00000000  00800060  00800060  00000420  2**0
                   ALLOC, LOAD, DATA
-  2 .comment      0000002f  00000000  00000000  00000418  2**0
+  2 .comment      0000002f  00000000  00000000  00000420  2**0
                   CONTENTS, READONLY
-  3 .stack.descriptors.hdr 0000000e  00000000  00000000  00000447  2**0
+  3 .stack.descriptors.hdr 0000000e  00000000  00000000  0000044f  2**0
                   CONTENTS, READONLY
-  4 .debug_aranges 000000d8  00000000  00000000  00000455  2**0
+  4 .debug_aranges 000000d8  00000000  00000000  0000045d  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .debug_info   000013cc  00000000  00000000  0000052d  2**0
+  5 .debug_info   000013dc  00000000  00000000  00000535  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_abbrev 000007bf  00000000  00000000  000018f9  2**0
+  6 .debug_abbrev 000007bf  00000000  00000000  00001911  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_line   000006ed  00000000  00000000  000020b8  2**0
+  7 .debug_line   000006db  00000000  00000000  000020d0  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_frame  0000015c  00000000  00000000  000027a8  2**2
+  8 .debug_frame  0000015c  00000000  00000000  000027ac  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    00000213  00000000  00000000  00002904  2**0
+  9 .debug_str    00000213  00000000  00000000  00002908  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    000003c2  00000000  00000000  00002b17  2**0
+ 10 .debug_loc    000003c2  00000000  00000000  00002b1b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000098  00000000  00000000  00002ed9  2**0
+ 11 .debug_ranges 00000098  00000000  00000000  00002edd  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .text         00000004  00000396  00000396  0000040a  2**1
+ 12 .text         00000004  0000039e  0000039e  00000412  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 13 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00002f74  2**2
+ 13 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00002f78  2**2
                   CONTENTS, READONLY, DEBUGGING
- 14 .text.Init    00000010  0000036c  0000036c  000003e0  2**1
+ 14 .text.Init    00000016  00000344  00000344  000003b8  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 15 .text.Test_SPI 0000002a  00000318  00000318  0000038c  2**1
+ 15 .text.Test_SPI 00000024  00000320  00000320  00000394  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 16 .text.main    0000000a  0000037c  0000037c  000003f0  2**1
+ 16 .text.main    0000000a  00000384  00000384  000003f8  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  17 .text.DIO_SetPinDir 000000e2  0000006c  0000006c  000000e0  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  18 .text.DIO_SetPinVal 000000e2  0000014e  0000014e  000001c2  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 19 .text.DIO_TogglePin 00000068  000002b0  000002b0  00000324  2**1
+ 19 .text.DIO_TogglePin 00000068  000002b8  000002b8  0000032c  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 20 .text.SPI_Master_Init 00000080  00000230  00000230  000002a4  2**1
+ 20 .text.SPI_Master_Init 00000088  00000230  00000230  000002a4  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 21 .text.SPI_RecieveCharacter 00000008  00000386  00000386  000003fa  2**1
+ 21 .text.SPI_RecieveCharacter 00000008  0000038e  0000038e  00000402  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 22 .text.SPI_SendCharacter 00000008  0000038e  0000038e  00000402  2**1
+ 22 .text.SPI_SendCharacter 00000008  00000396  00000396  0000040a  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 23 .text.__vector_12 00000014  00000358  00000358  000003cc  2**1
+ 23 .text.__vector_12 00000014  00000370  00000370  000003e4  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 24 .text.__dummy_fini 00000002  0000039e  0000039e  00000412  2**1
+ 24 .text.__dummy_fini 00000002  000003a6  000003a6  0000041a  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 25 .text.__dummy_funcs_on_exit 00000002  000003a0  000003a0  00000414  2**1
+ 25 .text.__dummy_funcs_on_exit 00000002  000003a8  000003a8  0000041c  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 26 .text.__dummy_simulator_exit 00000002  000003a2  000003a2  00000416  2**1
+ 26 .text.__dummy_simulator_exit 00000002  000003aa  000003aa  0000041e  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 27 .text.exit    00000016  00000342  00000342  000003b6  2**1
+ 27 .text.exit    00000016  0000035a  0000035a  000003ce  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 28 .text._Exit   00000004  0000039a  0000039a  0000040e  2**1
+ 28 .text._Exit   00000004  000003a2  000003a2  00000416  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 
 Disassembly of section .text:
 
 00000000 <__vectors>:
    0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
-   4:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-   8:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-   c:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  10:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  14:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  18:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  1c:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  20:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  24:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  28:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  2c:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  30:	0c 94 ac 01 	jmp	0x358	; 0x358 <__vector_12>
-  34:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  38:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  3c:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  40:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  44:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  48:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  4c:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
-  50:	0c 94 cb 01 	jmp	0x396	; 0x396 <__bad_interrupt>
+   4:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+   8:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+   c:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  10:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  14:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  18:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  1c:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  20:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  24:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  28:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  2c:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  30:	0c 94 b8 01 	jmp	0x370	; 0x370 <__vector_12>
+  34:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  38:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  3c:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  40:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  44:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  48:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  4c:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
+  50:	0c 94 cf 01 	jmp	0x39e	; 0x39e <__bad_interrupt>
 
 00000054 <__ctors_end>:
   54:	11 24       	eor	r1, r1
@@ -94,8 +94,8 @@ Disassembly of section .text:
   5a:	d8 e0       	ldi	r29, 0x08	; 8
   5c:	de bf       	out	0x3e, r29	; 62
   5e:	cd bf       	out	0x3d, r28	; 61
-  60:	0e 94 be 01 	call	0x37c	; 0x37c <main>
-  64:	0c 94 a1 01 	jmp	0x342	; 0x342 <exit>
+  60:	0e 94 c2 01 	call	0x384	; 0x384 <main>
+  64:	0c 94 ad 01 	jmp	0x35a	; 0x35a <exit>
 
 00000068 <_exit>:
   68:	f8 94       	cli
@@ -105,89 +105,73 @@ Disassembly of section .text:
 
 Disassembly of section .text:
 
-00000396 <__bad_interrupt>:
- 396:	0c 94 00 00 	jmp	0	; 0x0 <__TEXT_REGION_ORIGIN__>
+0000039e <__bad_interrupt>:
+ 39e:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
 
 Disassembly of section .text.Init:
 
-0000036c <Init>:
+00000344 <Init>:
 #include <util/delay.h>
 #include "DIO_Interface.h"
 #include "DIO_Private.h"
 
 void Init(){
 	SPI_Master_Init();
- 36c:	0e 94 18 01 	call	0x230	; 0x230 <SPI_Master_Init>
+ 344:	0e 94 18 01 	call	0x230	; 0x230 <SPI_Master_Init>
 	DIO_SetPinDir(DIO_PORTA, DIO_PIN7, DIO_PIN_OUTPUT);
- 370:	41 e0       	ldi	r20, 0x01	; 1
- 372:	67 e0       	ldi	r22, 0x07	; 7
- 374:	80 e0       	ldi	r24, 0x00	; 0
- 376:	0e 94 36 00 	call	0x6c	; 0x6c <__data_load_end>
- 37a:	08 95       	ret
+ 348:	41 e0       	ldi	r20, 0x01	; 1
+ 34a:	67 e0       	ldi	r22, 0x07	; 7
+ 34c:	80 e0       	ldi	r24, 0x00	; 0
+ 34e:	0e 94 36 00 	call	0x6c	; 0x6c <_etext>
+	SPI_SendCharacter('A');
+ 352:	81 e4       	ldi	r24, 0x41	; 65
+ 354:	0e 94 cb 01 	call	0x396	; 0x396 <SPI_SendCharacter>
+ 358:	08 95       	ret
 
 Disassembly of section .text.Test_SPI:
 
-00000318 <Test_SPI>:
+00000320 <Test_SPI>:
 }
 
 void Test_SPI(){
 	UINT8_t x = 0;
-	SPI_SendCharacter('A');
- 318:	81 e4       	ldi	r24, 0x41	; 65
- 31a:	0e 94 c7 01 	call	0x38e	; 0x38e <SPI_SendCharacter>
 	x = SPI_RecieveCharacter();
- 31e:	0e 94 c3 01 	call	0x386	; 0x386 <SPI_RecieveCharacter>
+ 320:	0e 94 c7 01 	call	0x38e	; 0x38e <SPI_RecieveCharacter>
 	
 	if(x == 'A'){
- 322:	81 34       	cpi	r24, 0x41	; 65
- 324:	69 f4       	brne	.+26     	; 0x340 <Test_SPI+0x28>
+ 324:	81 34       	cpi	r24, 0x41	; 65
+ 326:	69 f4       	brne	.+26     	; 0x342 <Test_SPI+0x22>
 		DIO_TogglePin(DIO_PORTA, DIO_PIN7);
- 326:	67 e0       	ldi	r22, 0x07	; 7
- 328:	80 e0       	ldi	r24, 0x00	; 0
- 32a:	0e 94 58 01 	call	0x2b0	; 0x2b0 <DIO_TogglePin>
+ 328:	67 e0       	ldi	r22, 0x07	; 7
+ 32a:	80 e0       	ldi	r24, 0x00	; 0
+ 32c:	0e 94 5c 01 	call	0x2b8	; 0x2b8 <DIO_TogglePin>
 	#else
 		//round up by default
 		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
 	#endif
 
 	__builtin_avr_delay_cycles(__ticks_dc);
- 32e:	2f ef       	ldi	r18, 0xFF	; 255
- 330:	89 e6       	ldi	r24, 0x69	; 105
- 332:	98 e1       	ldi	r25, 0x18	; 24
- 334:	21 50       	subi	r18, 0x01	; 1
- 336:	80 40       	sbci	r24, 0x00	; 0
- 338:	90 40       	sbci	r25, 0x00	; 0
- 33a:	e1 f7       	brne	.-8      	; 0x334 <Test_SPI+0x1c>
- 33c:	00 c0       	rjmp	.+0      	; 0x33e <Test_SPI+0x26>
- 33e:	00 00       	nop
- 340:	08 95       	ret
+ 330:	2f ef       	ldi	r18, 0xFF	; 255
+ 332:	89 e6       	ldi	r24, 0x69	; 105
+ 334:	98 e1       	ldi	r25, 0x18	; 24
+ 336:	21 50       	subi	r18, 0x01	; 1
+ 338:	80 40       	sbci	r24, 0x00	; 0
+ 33a:	90 40       	sbci	r25, 0x00	; 0
+ 33c:	e1 f7       	brne	.-8      	; 0x336 <Test_SPI+0x16>
+ 33e:	00 c0       	rjmp	.+0      	; 0x340 <Test_SPI+0x20>
+ 340:	00 00       	nop
+ 342:	08 95       	ret
 
 Disassembly of section .text.main:
 
-0000037c <main>:
- */ 
-#include "TEST_SPI_Interface.h"
-
-int main(void)
-{
-	Init();
- 37c:	0e 94 b6 01 	call	0x36c	; 0x36c <Init>
-	
-    while(1)
-    {
-        Test_SPI();//TODO:: Please write your application code 
- 380:	0e 94 8c 01 	call	0x318	; 0x318 <Test_SPI>
- 384:	fd cf       	rjmp	.-6      	; 0x380 <main+0x4>
+00000384 <main>:
+ 384:	0e 94 a2 01 	call	0x344	; 0x344 <Init>
+ 388:	0e 94 90 01 	call	0x320	; 0x320 <Test_SPI>
+ 38c:	fd cf       	rjmp	.-6      	; 0x388 <main+0x4>
 
 Disassembly of section .text.DIO_SetPinDir:
 
 0000006c <DIO_SetPinDir>:
-			break;
-		case DIO_PORTC:
-			*Val = READ_BIT(PORTC_PIN, Pin);
-			break;
-		case DIO_PORTD:
-			*Val = READ_BIT(PORTD_PIN, Pin);
   6c:	44 23       	and	r20, r20
   6e:	b9 f1       	breq	.+110    	; 0xde <DIO_SetPinDir+0x72>
   70:	41 30       	cpi	r20, 0x01	; 1
@@ -421,76 +405,59 @@ Disassembly of section .text.DIO_SetPinVal:
 
 Disassembly of section .text.DIO_TogglePin:
 
-000002b0 <DIO_TogglePin>:
-		/*handle errors using default*/
-	}
-}
-
-void DIO_TogglePin(UINT8_t Port, UINT8_t Pin){
-	switch(Port){
- 2b0:	81 30       	cpi	r24, 0x01	; 1
- 2b2:	89 f0       	breq	.+34     	; 0x2d6 <DIO_TogglePin+0x26>
- 2b4:	28 f0       	brcs	.+10     	; 0x2c0 <DIO_TogglePin+0x10>
- 2b6:	82 30       	cpi	r24, 0x02	; 2
- 2b8:	c9 f0       	breq	.+50     	; 0x2ec <DIO_TogglePin+0x3c>
- 2ba:	83 30       	cpi	r24, 0x03	; 3
- 2bc:	11 f1       	breq	.+68     	; 0x302 <DIO_TogglePin+0x52>
- 2be:	08 95       	ret
-		case DIO_PORTA:
-			TOGGLE_BIT(PORTA_DATA, Pin);
- 2c0:	2b b3       	in	r18, 0x1b	; 27
- 2c2:	81 e0       	ldi	r24, 0x01	; 1
- 2c4:	90 e0       	ldi	r25, 0x00	; 0
- 2c6:	02 c0       	rjmp	.+4      	; 0x2cc <DIO_TogglePin+0x1c>
- 2c8:	88 0f       	add	r24, r24
- 2ca:	99 1f       	adc	r25, r25
- 2cc:	6a 95       	dec	r22
- 2ce:	e2 f7       	brpl	.-8      	; 0x2c8 <DIO_TogglePin+0x18>
- 2d0:	82 27       	eor	r24, r18
- 2d2:	8b bb       	out	0x1b, r24	; 27
-			break;
- 2d4:	08 95       	ret
-		case DIO_PORTB:
-			TOGGLE_BIT(PORTB_DATA, Pin);
- 2d6:	28 b3       	in	r18, 0x18	; 24
- 2d8:	81 e0       	ldi	r24, 0x01	; 1
- 2da:	90 e0       	ldi	r25, 0x00	; 0
- 2dc:	02 c0       	rjmp	.+4      	; 0x2e2 <DIO_TogglePin+0x32>
- 2de:	88 0f       	add	r24, r24
- 2e0:	99 1f       	adc	r25, r25
- 2e2:	6a 95       	dec	r22
- 2e4:	e2 f7       	brpl	.-8      	; 0x2de <DIO_TogglePin+0x2e>
- 2e6:	82 27       	eor	r24, r18
- 2e8:	88 bb       	out	0x18, r24	; 24
-			break;
- 2ea:	08 95       	ret
-		case DIO_PORTC:
-			TOGGLE_BIT(PORTC_DATA, Pin);
- 2ec:	25 b3       	in	r18, 0x15	; 21
- 2ee:	81 e0       	ldi	r24, 0x01	; 1
- 2f0:	90 e0       	ldi	r25, 0x00	; 0
- 2f2:	02 c0       	rjmp	.+4      	; 0x2f8 <DIO_TogglePin+0x48>
- 2f4:	88 0f       	add	r24, r24
- 2f6:	99 1f       	adc	r25, r25
- 2f8:	6a 95       	dec	r22
- 2fa:	e2 f7       	brpl	.-8      	; 0x2f4 <DIO_TogglePin+0x44>
- 2fc:	82 27       	eor	r24, r18
- 2fe:	85 bb       	out	0x15, r24	; 21
-			break;
- 300:	08 95       	ret
-		case DIO_PORTD:
-			TOGGLE_BIT(PORTD_DATA, Pin);
- 302:	22 b3       	in	r18, 0x12	; 18
- 304:	81 e0       	ldi	r24, 0x01	; 1
- 306:	90 e0       	ldi	r25, 0x00	; 0
- 308:	02 c0       	rjmp	.+4      	; 0x30e <DIO_TogglePin+0x5e>
- 30a:	88 0f       	add	r24, r24
- 30c:	99 1f       	adc	r25, r25
- 30e:	6a 95       	dec	r22
- 310:	e2 f7       	brpl	.-8      	; 0x30a <DIO_TogglePin+0x5a>
- 312:	82 27       	eor	r24, r18
- 314:	82 bb       	out	0x12, r24	; 18
- 316:	08 95       	ret
+000002b8 <DIO_TogglePin>:
+ 2b8:	81 30       	cpi	r24, 0x01	; 1
+ 2ba:	89 f0       	breq	.+34     	; 0x2de <DIO_TogglePin+0x26>
+ 2bc:	28 f0       	brcs	.+10     	; 0x2c8 <DIO_TogglePin+0x10>
+ 2be:	82 30       	cpi	r24, 0x02	; 2
+ 2c0:	c9 f0       	breq	.+50     	; 0x2f4 <DIO_TogglePin+0x3c>
+ 2c2:	83 30       	cpi	r24, 0x03	; 3
+ 2c4:	11 f1       	breq	.+68     	; 0x30a <DIO_TogglePin+0x52>
+ 2c6:	08 95       	ret
+ 2c8:	2b b3       	in	r18, 0x1b	; 27
+ 2ca:	81 e0       	ldi	r24, 0x01	; 1
+ 2cc:	90 e0       	ldi	r25, 0x00	; 0
+ 2ce:	02 c0       	rjmp	.+4      	; 0x2d4 <DIO_TogglePin+0x1c>
+ 2d0:	88 0f       	add	r24, r24
+ 2d2:	99 1f       	adc	r25, r25
+ 2d4:	6a 95       	dec	r22
+ 2d6:	e2 f7       	brpl	.-8      	; 0x2d0 <DIO_TogglePin+0x18>
+ 2d8:	82 27       	eor	r24, r18
+ 2da:	8b bb       	out	0x1b, r24	; 27
+ 2dc:	08 95       	ret
+ 2de:	28 b3       	in	r18, 0x18	; 24
+ 2e0:	81 e0       	ldi	r24, 0x01	; 1
+ 2e2:	90 e0       	ldi	r25, 0x00	; 0
+ 2e4:	02 c0       	rjmp	.+4      	; 0x2ea <DIO_TogglePin+0x32>
+ 2e6:	88 0f       	add	r24, r24
+ 2e8:	99 1f       	adc	r25, r25
+ 2ea:	6a 95       	dec	r22
+ 2ec:	e2 f7       	brpl	.-8      	; 0x2e6 <DIO_TogglePin+0x2e>
+ 2ee:	82 27       	eor	r24, r18
+ 2f0:	88 bb       	out	0x18, r24	; 24
+ 2f2:	08 95       	ret
+ 2f4:	25 b3       	in	r18, 0x15	; 21
+ 2f6:	81 e0       	ldi	r24, 0x01	; 1
+ 2f8:	90 e0       	ldi	r25, 0x00	; 0
+ 2fa:	02 c0       	rjmp	.+4      	; 0x300 <DIO_TogglePin+0x48>
+ 2fc:	88 0f       	add	r24, r24
+ 2fe:	99 1f       	adc	r25, r25
+ 300:	6a 95       	dec	r22
+ 302:	e2 f7       	brpl	.-8      	; 0x2fc <DIO_TogglePin+0x44>
+ 304:	82 27       	eor	r24, r18
+ 306:	85 bb       	out	0x15, r24	; 21
+ 308:	08 95       	ret
+ 30a:	22 b3       	in	r18, 0x12	; 18
+ 30c:	81 e0       	ldi	r24, 0x01	; 1
+ 30e:	90 e0       	ldi	r25, 0x00	; 0
+ 310:	02 c0       	rjmp	.+4      	; 0x316 <DIO_TogglePin+0x5e>
+ 312:	88 0f       	add	r24, r24
+ 314:	99 1f       	adc	r25, r25
+ 316:	6a 95       	dec	r22
+ 318:	e2 f7       	brpl	.-8      	; 0x312 <DIO_TogglePin+0x5a>
+ 31a:	82 27       	eor	r24, r18
+ 31c:	82 bb       	out	0x12, r24	; 18
+ 31e:	08 95       	ret
 
 Disassembly of section .text.SPI_Master_Init:
 
@@ -535,19 +502,19 @@ void SPI_SetCallback(void (*fPtr)(void)){
  26e:	41 e0       	ldi	r20, 0x01	; 1
  270:	64 e0       	ldi	r22, 0x04	; 4
  272:	81 e0       	ldi	r24, 0x01	; 1
- 274:	0e 94 36 00 	call	0x6c	; 0x6c <__data_load_end>
+ 274:	0e 94 36 00 	call	0x6c	; 0x6c <_etext>
  278:	41 e0       	ldi	r20, 0x01	; 1
  27a:	65 e0       	ldi	r22, 0x05	; 5
  27c:	81 e0       	ldi	r24, 0x01	; 1
- 27e:	0e 94 36 00 	call	0x6c	; 0x6c <__data_load_end>
+ 27e:	0e 94 36 00 	call	0x6c	; 0x6c <_etext>
  282:	40 e0       	ldi	r20, 0x00	; 0
  284:	66 e0       	ldi	r22, 0x06	; 6
  286:	81 e0       	ldi	r24, 0x01	; 1
- 288:	0e 94 36 00 	call	0x6c	; 0x6c <__data_load_end>
+ 288:	0e 94 36 00 	call	0x6c	; 0x6c <_etext>
  28c:	41 e0       	ldi	r20, 0x01	; 1
  28e:	67 e0       	ldi	r22, 0x07	; 7
  290:	81 e0       	ldi	r24, 0x01	; 1
- 292:	0e 94 36 00 	call	0x6c	; 0x6c <__data_load_end>
+ 292:	0e 94 36 00 	call	0x6c	; 0x6c <_etext>
  296:	89 81       	ldd	r24, Y+1	; 0x01
  298:	80 61       	ori	r24, 0x10	; 16
  29a:	89 83       	std	Y+1, r24	; 0x01
@@ -555,89 +522,93 @@ void SPI_SetCallback(void (*fPtr)(void)){
  29e:	64 e0       	ldi	r22, 0x04	; 4
  2a0:	81 e0       	ldi	r24, 0x01	; 1
  2a2:	0e 94 a7 00 	call	0x14e	; 0x14e <DIO_SetPinVal>
- 2a6:	0f 90       	pop	r0
- 2a8:	0f 90       	pop	r0
- 2aa:	df 91       	pop	r29
- 2ac:	cf 91       	pop	r28
- 2ae:	08 95       	ret
+ 2a6:	89 81       	ldd	r24, Y+1	; 0x01
+ 2a8:	8d b9       	out	0x0d, r24	; 13
+ 2aa:	8a 81       	ldd	r24, Y+2	; 0x02
+ 2ac:	8e b9       	out	0x0e, r24	; 14
+ 2ae:	0f 90       	pop	r0
+ 2b0:	0f 90       	pop	r0
+ 2b2:	df 91       	pop	r29
+ 2b4:	cf 91       	pop	r28
+ 2b6:	08 95       	ret
 
 Disassembly of section .text.SPI_RecieveCharacter:
 
-00000386 <SPI_RecieveCharacter>:
+0000038e <SPI_RecieveCharacter>:
 /*void SPI_Slave_Init(){
 	
 }*/
 
 UINT8_t SPI_RecieveCharacter(){	
 	while(!READ_BIT(SPSR, SPSR_SPIF));
- 386:	77 9b       	sbis	0x0e, 7	; 14
- 388:	fe cf       	rjmp	.-4      	; 0x386 <SPI_RecieveCharacter>
+ 38e:	77 9b       	sbis	0x0e, 7	; 14
+ 390:	fe cf       	rjmp	.-4      	; 0x38e <SPI_RecieveCharacter>
 	return SPDR;
- 38a:	8f b1       	in	r24, 0x0f	; 15
-}
- 38c:	08 95       	ret
-
-Disassembly of section .text.SPI_SendCharacter:
-
-0000038e <SPI_SendCharacter>:
-
-void SPI_SendCharacter(UINT8_t chr){
-	SPDR = chr;
- 38e:	8f b9       	out	0x0f, r24	; 15
-	while(!READ_BIT(SPSR, SPSR_SPIF));
- 390:	77 9b       	sbis	0x0e, 7	; 14
- 392:	fe cf       	rjmp	.-4      	; 0x390 <SPI_SendCharacter+0x2>
+ 392:	8f b1       	in	r24, 0x0f	; 15
 }
  394:	08 95       	ret
 
+Disassembly of section .text.SPI_SendCharacter:
+
+00000396 <SPI_SendCharacter>:
+
+void SPI_SendCharacter(UINT8_t chr){
+	SPDR = chr;
+ 396:	8f b9       	out	0x0f, r24	; 15
+	while(!READ_BIT(SPSR, SPSR_SPIF));
+ 398:	77 9b       	sbis	0x0e, 7	; 14
+ 39a:	fe cf       	rjmp	.-4      	; 0x398 <SPI_SendCharacter+0x2>
+}
+ 39c:	08 95       	ret
+
 Disassembly of section .text.__vector_12:
 
-00000358 <__vector_12>:
+00000370 <__vector_12>:
 void SPI_SetCallback(void (*fPtr)(void)){
 	
 }
 
 void __vector_12(void) __attribute((signal));
 void __vector_12(){
- 358:	1f 92       	push	r1
- 35a:	0f 92       	push	r0
- 35c:	0f b6       	in	r0, 0x3f	; 63
- 35e:	0f 92       	push	r0
- 360:	11 24       	eor	r1, r1
+ 370:	1f 92       	push	r1
+ 372:	0f 92       	push	r0
+ 374:	0f b6       	in	r0, 0x3f	; 63
+ 376:	0f 92       	push	r0
+ 378:	11 24       	eor	r1, r1
 	
- 362:	0f 90       	pop	r0
- 364:	0f be       	out	0x3f, r0	; 63
- 366:	0f 90       	pop	r0
- 368:	1f 90       	pop	r1
- 36a:	18 95       	reti
+ 37a:	0f 90       	pop	r0
+ 37c:	0f be       	out	0x3f, r0	; 63
+ 37e:	0f 90       	pop	r0
+ 380:	1f 90       	pop	r1
+ 382:	18 95       	reti
 
 Disassembly of section .text.__dummy_fini:
 
-0000039e <_fini>:
- 39e:	08 95       	ret
+000003a6 <_fini>:
+ 3a6:	08 95       	ret
 
 Disassembly of section .text.__dummy_funcs_on_exit:
 
-000003a0 <__funcs_on_exit>:
- 3a0:	08 95       	ret
+000003a8 <__funcs_on_exit>:
+ 3a8:	08 95       	ret
 
 Disassembly of section .text.__dummy_simulator_exit:
 
-000003a2 <__simulator_exit>:
- 3a2:	08 95       	ret
+000003aa <__simulator_exit>:
+ 3aa:	08 95       	ret
 
 Disassembly of section .text.exit:
 
-00000342 <exit>:
- 342:	ec 01       	movw	r28, r24
- 344:	0e 94 d0 01 	call	0x3a0	; 0x3a0 <__funcs_on_exit>
- 348:	0e 94 cf 01 	call	0x39e	; 0x39e <_fini>
- 34c:	ce 01       	movw	r24, r28
- 34e:	0e 94 d1 01 	call	0x3a2	; 0x3a2 <__simulator_exit>
- 352:	ce 01       	movw	r24, r28
- 354:	0e 94 cd 01 	call	0x39a	; 0x39a <_Exit>
+0000035a <exit>:
+ 35a:	ec 01       	movw	r28, r24
+ 35c:	0e 94 d4 01 	call	0x3a8	; 0x3a8 <__funcs_on_exit>
+ 360:	0e 94 d3 01 	call	0x3a6	; 0x3a6 <_fini>
+ 364:	ce 01       	movw	r24, r28
+ 366:	0e 94 d5 01 	call	0x3aa	; 0x3aa <__simulator_exit>
+ 36a:	ce 01       	movw	r24, r28
+ 36c:	0e 94 d1 01 	call	0x3a2	; 0x3a2 <_Exit>
 
 Disassembly of section .text._Exit:
 
-0000039a <_Exit>:
- 39a:	0e 94 34 00 	call	0x68	; 0x68 <_exit>
+000003a2 <_Exit>:
+ 3a2:	0e 94 34 00 	call	0x68	; 0x68 <_exit>
